@@ -5,8 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
+#if LITTLEHELPERS_NEEDS_EXPLICIT_USING_DIRECTIVES
 namespace demoncodemonkey.LittleHelpers
 {
+#endif
+
 	public static class WebConfig
 	{
 		/// <summary>
@@ -45,4 +48,7 @@ namespace demoncodemonkey.LittleHelpers
 			return defaultValue;
 		}
 	}
+
+#if LITTLEHELPERS_NEEDS_EXPLICIT_USING_DIRECTIVES
 }
+#endif
