@@ -58,7 +58,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LittleHelpers\LittleHelpers.csproj">
       <Project>{eebc3852-8792-4591-9cfe-7acb6a375f1d}</Project>
-      <Name>Helpers</Name>
+      <Name>LittleHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
