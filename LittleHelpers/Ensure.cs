@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-#if LITTLEHELPERS_NEEDS_EXPLICIT_USING_DIRECTIVES
+#if !LITTLEHELPERS_NEEDS_EXPLICIT_USING_DIRECTIVES
 namespace demoncodemonkey.LittleHelpers
 {
 #endif
