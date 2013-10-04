@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 #if !LITTLEHELPERS_NEEDS_EXPLICIT_USING_DIRECTIVES
-namespace demoncodemonkey.LittleHelpers
+asdnamespace demoncodemonkey.LittleHelpers
 {
 #endif
 
